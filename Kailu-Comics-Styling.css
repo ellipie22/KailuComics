@@ -1,0 +1,42 @@
+*{
+  background-color: #F9F7F7;
+}
+h1{
+    color: gray;
+}
+body{
+  font-family: sans-serif;
+  font-size: 15px;
+}
+dt{
+  font-weight: bold;
+  font-size: 22.5px;
+}
+table, th, tr, td{
+  border: 1.2px solid #758d69;
+}
+.link{
+  color: #00FF87;
+}
+.email{
+   background-image: -webkit-linear-gradient(left, #FFFFFF 0%, #7babb3 25%, #032E35 50%, #00d6c5 75%, #00E0CE 100%);
+    background-size: 1000% 1000%; 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    -webkit-animation: Text-fandomfast 4s infinite;
+    color: #00E0CE; /* Fallback color for non-webkit browsers */
+    white-space: nowrap;
+    font-weight: bold;
+    font-size: 2em;
+    font-family: 'Space Grotesk';
+    background-image: url('https://static.wikia.nocookie.net/big-nate-comments/images/1/15/FandomLogo.png');
+}
+ 
+@keyframes Text-fandomfast{
+    0% {background-position: 0% 50%}
+    50% {background-position: 100% 50%}
+    100% {background-position: 0% 50%}
+}
+.completeimage{
+  float: right;
+}
